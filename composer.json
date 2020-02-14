@@ -1,0 +1,11 @@
+{
+    "name": "barutkin/brain-games",
+    "description": "The first php project @hexlet.io",
+    "authors": [
+        {
+            "name": "Vadim Barutkin",
+            "email": "barutkin@gmail.com"
+        }
+    ],
+    "require": {}
+}

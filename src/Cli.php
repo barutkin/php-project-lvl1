@@ -7,7 +7,6 @@ use function cli\line;
 
 function run()
 {
-	$name = prompt('May I have your name?');
-	line("Hello, {$name}!");
+    $name = prompt('May I have your name?');
+    line("Hello, {$name}!");
 }
-

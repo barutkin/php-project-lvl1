@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-namespace PhpProjectLvl1\Bin\BrainGames;
+namespace PhpProjectLvl1\BrainGames;
 
 print_r("Welcome to the Brain Games!\n");

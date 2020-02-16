@@ -5,13 +5,8 @@ namespace BrainGames\BrainGames;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGames\Cli\printGreeting;
-use function BrainGames\Cli\getName;
-use function BrainGames\Cli\printHello;
-use function BrainGames\Cli\askQuestion;
+use function BrainGames\Game\game;
 
-printGreeting();
-$name = getName();
-printHello($name);
-$num = rand(0, 100);
-askQuestion($num);
+$questionsNumber = 3;
+
+game($questionsNumber);

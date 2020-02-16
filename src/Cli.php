@@ -26,3 +26,28 @@ function askQuestion(int $num)
 {
     line("Question: {$num}");
 }
+
+function askAnswer() : string
+{
+    return prompt('Your answer');
+}
+
+function printCorrect()
+{
+    line('Correct!');
+}
+
+function printWrong(string $answer, string $correctAnswer)
+{
+    line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'");
+}
+
+function printEndLoose(string $name)
+{
+    line("Let's try again, {$name}!");
+}
+
+function printEndWin(string $name)
+{
+    line("Congratulations, {$name}!");
+}

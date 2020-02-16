@@ -7,11 +7,12 @@ use function cli\line;
 
 function printGreeting()
 {
-    print_r("Welcome to the Brain Games!". PHP_EOL .
-        "Answer \"yes\" if the number is even, otherwise answer \"no\"." . PHP_EOL . PHP_EOL);
+    print_r("Welcome to the Brain Games!" . PHP_EOL .
+        "Answer \"yes\" if the number is even, otherwise answer \"no\"." .
+        PHP_EOL . PHP_EOL);
 }
 
-function getName() : string
+function getName(): string
 {
     $name = prompt('May I have your name?');
     return $name;
@@ -27,7 +28,7 @@ function askQuestion(int $num)
     line("Question: {$num}");
 }
 
-function askAnswer() : string
+function askAnswer(): string
 {
     return prompt('Your answer');
 }

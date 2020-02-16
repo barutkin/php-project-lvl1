@@ -7,3 +7,11 @@
 ## Описание проекта
 
 В рамках проекта необходимо реализовать набор мини-игр, запускаемых из консоли.
+
+## Install
+
+`composer global require barutkin/brain-games`
+
+NB: `~/.composer/vendor/bin/` should be in your `$PATH`
+
+[![asciicast](https://asciinema.org/a/kk7iswIWBBQzXA6hFYtmWVuex.svg)](https://asciinema.org/a/kk7iswIWBBQzXA6hFYtmWVuex)

@@ -6,6 +6,7 @@ namespace BrainGames\BrainGames;
 require __DIR__ . '/../vendor/autoload.php';
 
 use function BrainGames\Cli\run;
+use function BrainGames\Cli\printGreeting;
 
-print_r("Welcome to the Brain Games!\n\n");
+printGreeting();
 run();

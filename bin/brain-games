@@ -11,6 +11,7 @@ use function BrainGames\Cli\printHello;
 use function BrainGames\Cli\askQuestion;
 
 printGreeting();
-printHello(getName());
+$name = getName();
+printHello($name);
 $num = rand(0, 100);
 askQuestion($num);

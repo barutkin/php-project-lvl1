@@ -5,27 +5,34 @@ namespace BrainGames\Cli;
 use function cli\prompt;
 use function cli\line;
 
-function printGreeting()
+function printGreeting(): int
 {
     print_r("Welcome to the Brain Games!" . PHP_EOL .
         "Answer \"yes\" if the number is even, otherwise answer \"no\"." .
         PHP_EOL . PHP_EOL);
+
+    return 0;
 }
 
 function getName(): string
 {
     $name = prompt('May I have your name?');
+
     return $name;
 }
 
-function printHello(string $name)
+function printHello(string $name): int
 {
     line("Hello, {$name}!");
+
+    return 0;
 }
 
-function askQuestion(int $num)
+function askQuestion(int $num): int
 {
     line("Question: {$num}");
+
+    return 0;
 }
 
 function askAnswer(): string
@@ -33,22 +40,30 @@ function askAnswer(): string
     return prompt('Your answer');
 }
 
-function printCorrect()
+function printCorrect(): int
 {
     line('Correct!');
+
+    return 0;
 }
 
-function printWrong(string $answer, string $correctAnswer)
+function printWrong(string $answer, string $correctAnswer): int
 {
     line("'{$answer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'");
+
+    return 0;
 }
 
-function printEndLoose(string $name)
+function printEndLoose(string $name): int
 {
     line("Let's try again, {$name}!");
+
+    return 0;
 }
 
-function printEndWin(string $name)
+function printEndWin(string $name): int
 {
     line("Congratulations, {$name}!");
+
+    return 0;
 }

@@ -13,6 +13,6 @@ if (file_exists($autoloadPathGlobal)) {
 
 use function BrainGames\Game\game;
 
-$questionsNumber = 3;
+const QUESTIONS_COUNT = 3;
 
-game($questionsNumber);
+game(QUESTIONS_COUNT);

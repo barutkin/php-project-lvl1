@@ -7,7 +7,7 @@ use function cli\line;
 
 function printGreeting()
 {
-    print_r("Welcome to the Brain Games!\n\n");
+    print_r("Welcome to the Brain Games!\n");
 }
 
 function run()

@@ -8,7 +8,7 @@
         }
     ],
 	"bin": [
-		"bin/brain-games"
+		"bin/brain-even"
 	],
 	"scripts": {
 		"phpcs": "phpcs"

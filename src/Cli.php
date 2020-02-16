@@ -21,3 +21,8 @@ function printHello(string $name)
 {
     line("Hello, {$name}!");
 }
+
+function askQuestion(int $num)
+{
+    line("Question: {$num}");
+}

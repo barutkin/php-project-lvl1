@@ -14,4 +14,4 @@
 
 NB: `~/.composer/vendor/bin/` should be in your `$PATH`
 
-[![asciicast](https://asciinema.org/a/kk7iswIWBBQzXA6hFYtmWVuex.svg)](https://asciinema.org/a/kk7iswIWBBQzXA6hFYtmWVuex)
+[![asciicast](https://asciinema.org/a/MR8912dFW0WM35heD4geNKeg1.svg)](https://asciinema.org/a/MR8912dFW0WM35heD4geNKeg1)

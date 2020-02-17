@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-namespace BrainGames\BrainGames;
+namespace BrainGames\BrainEven;
 
 $autoloadPathGlobal = __DIR__ . '/../../../autoload.php';
 $autoloadPathLocal = __DIR__ . '/../vendor/autoload.php';
@@ -11,8 +11,8 @@ if (file_exists($autoloadPathGlobal)) {
     require_once $autoloadPathLocal;
 }
 
-use function BrainGames\Game\game;
+use function BrainGames\GameSkel\gameSkel;
 
 const QUESTIONS_COUNT = 3;
 
-game(QUESTIONS_COUNT);
+gameSkel('even', QUESTIONS_COUNT);

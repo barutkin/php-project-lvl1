@@ -16,7 +16,8 @@
 	"autoload": {
 		"files": [
 			"src/Cli.php",
-			"src/Game.php"
+			"src/GameSkel.php",
+      "games/GameEven.php"
 		]
 	},
     "require": {

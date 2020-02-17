@@ -10,6 +10,7 @@ use function BrainGames\Cli\printEndWin;
 use function BrainGames\Cli\printGameRules;
 use function BrainGames\GameEven\gameEven;
 use function BrainGames\GameCalc\gameCalc;
+use function BrainGames\GameGcd\gameGcd;
 
 function gameSkel(string $gameTitle, int $questionsCount): int
 {
@@ -25,6 +26,9 @@ function gameSkel(string $gameTitle, int $questionsCount): int
                 break;
             case 'calc':
                 $isAnswerCorrect = gameCalc();
+                break;
+            case 'gcd':
+                $isAnswerCorrect = gameGcd();
                 break;
         }
         if ($isAnswerCorrect) {

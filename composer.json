@@ -19,7 +19,8 @@
 			"src/Cli.php",
 			"src/GameSkel.php",
       "games/GameEven.php",
-      "games/GameCalc.php"
+      "games/GameCalc.php",
+      "games/GameGcd.php"
 		]
 	},
     "require": {

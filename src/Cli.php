@@ -22,6 +22,9 @@ function printGameRules(string $gameTitle): int
         case 'calc':
             print_r("What is the result of the expression?" . PHP_EOL . PHP_EOL);
             break;
+        case 'gcd':
+            print_r("Find the greatest common divisor of given numbers." . PHP_EOL . PHP_EOL);
+            break;
     }
 
     return 0;

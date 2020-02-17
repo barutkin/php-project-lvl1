@@ -8,6 +8,8 @@ use function BrainGames\Cli\printHello;
 use function BrainGames\Cli\printEndLoose;
 use function BrainGames\Cli\printEndWin;
 use function BrainGames\Cli\printGameRules;
+use function BrainGames\Cli\printCorrect;
+use function BrainGames\Cli\printWrong;
 use function BrainGames\GameEven\gameEven;
 use function BrainGames\GameCalc\gameCalc;
 use function BrainGames\GameGcd\gameGcd;
@@ -22,18 +24,21 @@ function gameSkel(string $gameTitle, int $questionsCount): int
     for ($i = 0; $i < $questionsCount; $i++) {
         switch ($gameTitle) {
             case 'even':
-                $isAnswerCorrect = gameEven();
+                $correctAnswer = gameEven();
                 break;
             case 'calc':
-                $isAnswerCorrect = gameCalc();
+                $correctAnswer = gameCalc();
                 break;
             case 'gcd':
-                $isAnswerCorrect = gameGcd();
+                $correctAnswer = gameGcd();
                 break;
         }
-        if ($isAnswerCorrect) {
+        $answer = askAnswer();
+        if (gameCheckAnswers($answer, $correctAnswer)) {
+            printCorrect();
             continue;
         } else {
+            printWrong($answer, $correctAnswer);
             gameEnd($name, false);
             return 0;
         }
@@ -60,4 +65,13 @@ function gameEnd($name, bool $isWin): int
     }
 
     return 0;
+}
+
+function gameCheckAnswers($answer, $correctAnswer): bool
+{
+    if ($answer === $correctAnswer) {
+        return true;
+    } else {
+        return false;
+    }
 }

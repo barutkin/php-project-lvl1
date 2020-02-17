@@ -3,25 +3,13 @@
 namespace BrainGames\GameEven;
 
 use function BrainGames\Cli\askQuestion;
-use function BrainGames\Cli\askAnswer;
-use function BrainGames\Cli\printCorrect;
-use function BrainGames\Cli\printWrong;
 
-function gameEven(): bool
+function gameEven(): string
 {
     $num = rand(0, 100);
-    $correctAnswer = getCorrectAnswer($num);
     askQuestion((string) $num);
-    $answer = askAnswer();
-    if ($answer === $correctAnswer) {
-        $isAnswerCorrect = true;
-        printCorrect();
-    } else {
-        $isAnswerCorrect = false;
-        printWrong($answer, $correctAnswer);
-    }
 
-    return $isAnswerCorrect;
+    return getCorrectAnswer($num);
 }
 
 function getCorrectAnswer(int $num): string

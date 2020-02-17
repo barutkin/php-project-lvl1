@@ -4,6 +4,7 @@ namespace BrainGames\GameSkel;
 
 use function BrainGames\Cli\printGreeting;
 use function BrainGames\Cli\getName;
+use function BrainGames\Cli\askAnswer;
 use function BrainGames\Cli\printHello;
 use function BrainGames\Cli\printEndLoose;
 use function BrainGames\Cli\printEndWin;

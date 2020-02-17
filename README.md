@@ -18,3 +18,6 @@ NB: `~/.composer/vendor/bin/` should be in your `$PATH`
 
 The `brain-calc` example run:
 [![brain-cal asciicast](https://asciinema.org/a/7WeXKDO4elzhX1mVl6VGOYI5M.svg)](https://asciinema.org/a/7WeXKDO4elzhX1mVl6VGOYI5M)
+
+The `brain-gcd` example run:
+[![brain-gcd asciicast](https://asciinema.org/a/46vYe813eaicWyrlzGcnK1NtR.svg)](https://asciinema.org/a/46vYe813eaicWyrlzGcnK1NtR)

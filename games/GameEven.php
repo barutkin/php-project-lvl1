@@ -11,7 +11,7 @@ function gameEven(): bool
 {
     $num = rand(0, 100);
     $correctAnswer = getCorrectAnswer($num);
-    askQuestion($num);
+    askQuestion((string) $num);
     $answer = askAnswer();
     if ($answer === $correctAnswer) {
         $isAnswerCorrect = true;

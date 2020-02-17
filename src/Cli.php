@@ -19,6 +19,9 @@ function printGameRules(string $gameTitle): int
             print_r("Answer \"yes\" if the number is even, " .
                 "otherwise answer \"no\"." . PHP_EOL . PHP_EOL);
             break;
+        case 'calc':
+            print_r("What is the result of the expression?" . PHP_EOL . PHP_EOL);
+            break;
     }
 
     return 0;
@@ -38,9 +41,9 @@ function printHello(string $name): int
     return 0;
 }
 
-function askQuestion(int $num): int
+function askQuestion(string $question): int
 {
-    line("Question: {$num}");
+    line("Question: {$question}");
 
     return 0;
 }

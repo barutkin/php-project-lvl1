@@ -6,8 +6,8 @@ use function BrainGames\Cli\askQuestion;
 
 function gameGcd(): string
 {
-    $num1 = rand(0, 100);
-    $num2 = rand(0, 100);
+    $num1 = rand(1, 100);
+    $num2 = rand(1, 100);
     askQuestion("{$num1} {$num2}");
 
     return getCorrectAnswer($num1, $num2);

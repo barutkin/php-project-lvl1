@@ -16,4 +16,5 @@ NB: `~/.composer/vendor/bin/` should be in your `$PATH`
 
 [![installation asciicast](https://asciinema.org/a/MR8912dFW0WM35heD4geNKeg1.svg)](https://asciinema.org/a/MR8912dFW0WM35heD4geNKeg1)
 
-[![brain-cal asciicast](https://asciinema.org/a/NeA7EFdYUJ2y3PWjJSb6CHMxq.svg)](https://asciinema.org/a/NeA7EFdYUJ2y3PWjJSb6CHMxq)
+The `brain-calc` example run:
+[![brain-cal asciicast](https://asciinema.org/a/7WeXKDO4elzhX1mVl6VGOYI5M.svg)](https://asciinema.org/a/7WeXKDO4elzhX1mVl6VGOYI5M)

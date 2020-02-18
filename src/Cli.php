@@ -28,6 +28,9 @@ function printGameRules(string $gameTitle): int
         case 'progression':
             print_r("What number is missing in the progression?" . PHP_EOL . PHP_EOL);
             break;
+        case 'prime':
+            print_r("Answer \"yes\" if given number is prime. Otherwise answer \"no\"." . PHP_EOL . PHP_EOL);
+            break;
     }
 
     return 0;

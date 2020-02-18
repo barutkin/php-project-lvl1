@@ -15,6 +15,7 @@ use function BrainGames\GameEven\gameEven;
 use function BrainGames\GameCalc\gameCalc;
 use function BrainGames\GameGcd\gameGcd;
 use function BrainGames\GameProgression\gameProgression;
+use function BrainGames\GamePrime\gamePrime;
 
 function gameSkel(string $gameTitle, int $questionsCount): int
 {
@@ -36,6 +37,9 @@ function gameSkel(string $gameTitle, int $questionsCount): int
                 break;
             case 'progression':
                 $correctAnswer = gameProgression();
+                break;
+            case 'prime':
+                $correctAnswer = gamePrime();
                 break;
         }
         $answer = askAnswer();

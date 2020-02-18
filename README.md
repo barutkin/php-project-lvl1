@@ -24,3 +24,6 @@ The `brain-gcd` example run:
 
 The `brain-progression` example run:
 [![brain-progression asciicast](https://asciinema.org/a/YKCELakiKF4qFrp9ucd7HThor.svg)](https://asciinema.org/a/YKCELakiKF4qFrp9ucd7HThor)
+
+The `brain-prime` example run:
+[![brain-prime asciicast](https://asciinema.org/a/Suc57koFuLMyAq3knlXCgSY2O.svg)](https://asciinema.org/a/Suc57koFuLMyAq3knlXCgSY2O)

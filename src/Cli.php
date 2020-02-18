@@ -25,6 +25,9 @@ function printGameRules(string $gameTitle): int
         case 'gcd':
             print_r("Find the greatest common divisor of given numbers." . PHP_EOL . PHP_EOL);
             break;
+        case 'progression':
+            print_r("What number is missing in the progression?" . PHP_EOL . PHP_EOL);
+            break;
     }
 
     return 0;

@@ -21,3 +21,6 @@ The `brain-calc` example run:
 
 The `brain-gcd` example run:
 [![brain-gcd asciicast](https://asciinema.org/a/46vYe813eaicWyrlzGcnK1NtR.svg)](https://asciinema.org/a/46vYe813eaicWyrlzGcnK1NtR)
+
+The `brain-progression` example run:
+[![brain-progression asciicast](https://asciinema.org/a/YKCELakiKF4qFrp9ucd7HThor.svg)](https://asciinema.org/a/YKCELakiKF4qFrp9ucd7HThor)
